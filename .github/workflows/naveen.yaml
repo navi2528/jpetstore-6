@@ -43,7 +43,8 @@ jobs:
 
       - name: Gitleaks code Scan
         run: gitleaks detect source . -r gitleaks-report.json -f json
-      test:
+    
+  test:
 
         runs-on: security_checks
 
