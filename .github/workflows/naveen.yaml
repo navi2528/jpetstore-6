@@ -7,7 +7,7 @@ on:
 jobs:
   compile:
 
-    runs-on: self-hosted
+    runs-on: Self-hosted
 
     steps:
     - uses: actions/checkout@v4
@@ -21,7 +21,7 @@ jobs:
       run: mvn compile
   security_checks:
 
-      runs-on: self-hosted
+      runs-on: Self-hosted
       needs: compile
 
       steps:
